@@ -19,6 +19,14 @@ body {
   font-size: 14pt;
 }
 
+.icon-menu {
+  color: white;
+}
+
+img.round_border {
+  border-radius: 30px;
+}
+
 .picture-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -560,7 +568,7 @@ a {
       font-weight: 900; }
     @media (min-width: 768px) {
       .site-blocks-cover h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: 300;
         line-height: 1.2; } }
         .site-blocks-cover h2 {
